@@ -1,0 +1,97 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header, .navbar{
+    background-color:#002E61;
+}
+main{
+    min-height: calc(100vh - 100px);
+}
+html, body {
+    height: 100%;
+}
+section {
+    scroll-margin-top: 80px;
+}
+#services-section-view{
+    scroll-margin-top: 200px;
+}
+
+.navbar-toggler {
+    border: none; 
+    background-color: transparent; 
+    margin-right: 8px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='white'%3E%3Cpath stroke='none' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+#logo{
+    margin-left: 20px;
+    padding: 6px;
+    color: white;
+}
+
+.navbar-nav a{
+    color: white;
+}
+.navbar-nav a:hover{
+    color: rgb(161, 161, 161);
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+    margin-right: 16px;
+}
+#home-section{
+    background-image: url(../assets/shared-services-team-scaled.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-info{
+    margin-left: 40px;
+}
+.btn{
+    background-color: #004C61;
+}
+
+.title-txt, #about h1,#about h3, #about h4{
+    font-family: "Comfortaa", serif;
+    color: #002E61;
+}
+#about-section-view{
+    background-image: url(../assets/fundo-about-us.jpg);
+    background-repeat: no-repeat;
+}
+#titulo-about{
+    font-weight: bolder;
+}
+.flex-fill {
+    flex-grow: 1;
+    height: 4px; 
+    background-color: #002E61; 
+    border: none; 
+}
+#contact-me-section-view{
+    background-image: url(../assets/background-footer.jpg);
+}
+@media (max-width: 768px) {
+    .txt-contacts {
+        color: white; 
+    }
+
+    .fa-envelope, .fa-whatsapp, .fa-instagram {
+        color: white; 
+    }
+}
+footer{
+    margin-top: 16px;
+    background-color: #002E61;
+    padding: 0;
+    color: white;
+}
+footer a{
+    text-decoration-style: none;
+}
