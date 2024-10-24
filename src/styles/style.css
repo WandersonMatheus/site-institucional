@@ -56,7 +56,9 @@ section {
 .btn{
     background-color: #004C61;
 }
-
+.btn-orc{
+    margin-top: 95px;
+}
 .title-txt, #about h1,#about h3, #about h4{
     font-family: "Comfortaa", serif;
     color: #002E61;
@@ -73,6 +75,9 @@ section {
     height: 4px; 
     background-color: #002E61; 
     border: none; 
+}
+.card-txt{
+    line-height: 1.8;
 }
 #contact-me-section-view{
     background-image: url(../assets/background-footer.jpg);
